@@ -31,16 +31,17 @@ print(bf.evaluate(code,inputs))
 ```
 ```python
 import BrainfuckInterpreter as bf
-# Hello World!
 code = "++++++++[>++++[>++>+++>+++>+<<<<-]>+>+>->>+[<]<-]>>.>---.+++++++..+++.>>.<-.<.+++.------.--------.>>+.>++."
 print(bf.evaluate(code,is_ascii=True))
+# output
+# Hello World!
 ```
 ```python
 import BrainfuckInterpreter as bf
 code = """
-sum of the cell 1 and 2 program
-,> input 1 on the cell 1
-,< input 2 on the cell 2
+program that sum the cell 1 and 2
+,> input 1 on the first cell
+,< input 2 on the second cell
 sum
 [->>+<<]>
 [->+<]>
